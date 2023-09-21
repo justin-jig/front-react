@@ -1,0 +1,54 @@
+
+.test {
+    width: 500px; height: 300px;
+
+}
+.test > h1 {
+    color: brown;
+    background-color: antiquewhite;
+    font-size: 32px; text-align: center; padding: 20px;
+}
+.test > div {
+    text-align: center;
+}
+
+.test > div > .input1 {
+    margin-bottom: 20px;
+}
+
+
+.practice4 {
+    width: 100%; display: flex;
+    height: 300px;
+}
+.practice4 > div {
+    width: 50px;
+}
+.practice4 > .red {
+    background-color: red;
+    height: 50px;
+}
+.practice4 > .orange {
+    background-color: orange;
+    height: 75px;
+}
+.practice4 > .yellow {
+    background-color: yellow;
+    height: 100px;
+}
+.practice4 > .green {
+    background-color: green;
+    height: 125px;
+}
+.practice4 > .blue {
+    background-color: blue;
+    height: 150px;
+}
+.practice4 > .navy {
+    background-color: navy;
+    height: 175px;
+}
+.practice4 > .purple {
+    background-color: purple;
+    height: 200px;
+}
