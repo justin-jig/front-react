@@ -12,7 +12,7 @@ import Practice5Ver2 from './Practice5Ver2';
  */
 
 
-const Practice0920 = () => {
+const UseState07 = () => {
 
     return (
         <div className="practice3_0920_box">
@@ -40,4 +40,4 @@ const Practice0920 = () => {
     )
 }
 
-export default Practice0920
+export default UseState07

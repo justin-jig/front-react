@@ -45,8 +45,8 @@ class LifeCycleClass extends Component {
     render() {
         return (
             <>
-                <button onClick={() =>this.changeNumberState}> PLUS </button>
-                <button onClick={() =>this.changeVisibleState}> ON/OFF </button>
+                <button onClick={() => this.changeNumberState()}> PLUS </button>
+                <button onClick={() => this.changeVisibleState()}> ON/OFF </button>
                 {this.state.visible && <MyComponent number={this.state.number}/>}
 
             </>

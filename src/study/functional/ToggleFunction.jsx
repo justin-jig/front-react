@@ -6,8 +6,11 @@ const ToggleFunction = () => {
     const [view, setView] = useState(true);
 
     const ChangeViewEvent = () => {
+        
         setView(!view);
+
     }
+    
     return (
 
         <div>

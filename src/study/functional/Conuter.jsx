@@ -4,8 +4,6 @@ import React, {useState} from "react"
 const Counter = () => {
     
     const [number, setNumber] = useState();
-    console.log(number);
-
     const handleIncreament = () => {
         setNumber(number + 1);
     }

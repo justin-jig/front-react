@@ -1,0 +1,76 @@
+.useEffect_practice_wrap {
+    width: 100%; margin: 0; padding: 0;
+}
+.useEffect_practice1_box1 {
+    width: 100%; min-height: 700px;
+}
+
+.useEffect_practice1_box1 > header {
+    width: 100%; height: 50px; 
+    background-color: rgb(65, 186, 233);
+    font-size: 1.5em; display: flex; align-items: center;
+    justify-content: center;
+    font-weight: bold; color: #fff;
+}
+
+.useEffect_practice1_box1 > main {
+    width: 70vw; height: auto; margin: auto;
+    box-sizing: border-box; padding: 20px 0;
+}
+
+.useEffect_practice1_box1 > main > .loading_box {
+    width: 100%; text-align: center; padding: 35vh 0; font-size: 1.6em; font-weight: bold;
+}
+
+.useEffect_practice1_box1 > main > .loading_box > span {
+    animation-duration: 1.5s;
+    animation-name: viewIn;
+    animation-iteration-count: infinite;
+}
+
+@keyframes viewIn {
+
+    from {
+        opacity: 100;
+    }
+    
+    to {
+        opacity: 0;
+    }
+}
+
+.useEffect_practice1_box1 > main > .post_item_box {
+    width: 100%; min-height: 200px; margin: auto; padding: 2em;
+    box-sizing: border-box;
+    background-color: rgb(222, 236, 254); margin-bottom: 20px;
+    border-radius: 9px;
+    box-shadow:2px 3px 5px 0px rgb(0, 0, 0, 0.3); 
+}
+
+.useEffect_practice1_box1 > main > .post_item_box > .list_title {
+    width: 100%; display: flex; align-items: flex-start; height: 30px; margin-bottom: 20px;
+}
+.useEffect_practice1_box1 > main > .post_item_box > .list_title > span {
+    display: inline-block; color: rgb(175, 175, 245); font-size: 18px; font-weight: bold;
+    padding-right: 1%;
+}
+.useEffect_practice1_box1 > main > .post_item_box > .list_title > h5 {
+     width: 80%;  overflow: hidden; text-overflow: ellipsis;
+    white-space: nowrap; padding: 0; margin: 0; color: #b2b0b0; font-size: 18px;
+}
+
+.useEffect_practice1_box1 > main > .post_item_box > .list_content {
+    font-weight: bold; font-size: 15px;
+    white-space: normal; display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+
+
+.useEffect_practice1_box2 {
+    width: 100%; min-height: 700px; box-sizing: border-box;
+    padding: 2em;
+
+}
