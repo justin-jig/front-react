@@ -1,6 +1,4 @@
 
-import React from 'react';
-
 const Practice5 = () => {
 
     let flag = true;

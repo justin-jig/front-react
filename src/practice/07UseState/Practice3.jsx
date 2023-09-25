@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import  { useState, useRef } from 'react';
 import './practice.css';
 
 const Practice3 = () => {
@@ -11,8 +11,8 @@ const Practice3 = () => {
 
     const createBoard = () => {
 
-        if (inputCreate.current.value === "") return alert('작성자를 입력해주세요.');
-        if (inpuTitle.current.value === "") return alert('제못를 입력해주세요.');
+        if (inputCreate.current.value === "") return inputCreate.current.focus(), alert('작성자를 입력해주세요.');
+        if (inpuTitle.current.value === "") return inpuTitle.current.focus(), alert('제목를 입력해주세요.');
         
         const boardList = [...board];
         boardList.push({

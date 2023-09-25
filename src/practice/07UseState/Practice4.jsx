@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import './practice.css';
 
 
@@ -17,7 +17,7 @@ const Practice4 = () => {
     const createBoard = () => {// Board 등록
 
         if (inputCreateRef.current.value === "") return alert('작성자를 입력해주세요.');
-        if (inpuTitleRef.current.value === "") return alert('제못를 입력해주세요.');
+        if (inpuTitleRef.current.value === "") return alert('제목을 입력해주세요.');
         
         const boardList = [...board];
         boardList.push({

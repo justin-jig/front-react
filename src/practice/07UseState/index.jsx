@@ -23,9 +23,9 @@ const UseState07 = () => {
             <Practice2/>
             <br/> */}
             
-            {/* <h1>3번 문제</h1>
+            <h1>3번 문제</h1>
             <Practice3/>
-            <br/> */}
+            <br/>
             
             {/* <h1>4번 문제</h1>
             <Practice4/>  */}
@@ -33,8 +33,8 @@ const UseState07 = () => {
             <h1>5번 문제</h1>
             <Practice5/> */}
 
-            <h1>5번 문제 리더님 풀이</h1>
-            <Practice5Ver2/>
+            {/* <h1>5번 문제 리더님 풀이</h1>
+            <Practice5Ver2/> */}
 
         </div>
     )

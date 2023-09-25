@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 const ShortCircuitEvaluation = () => {
 
     // 단축 평가

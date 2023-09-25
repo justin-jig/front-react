@@ -1,17 +1,18 @@
 import React from 'react';
 
-
-import ClassState06 from './06ClassState/index';
-import UseState07 from './07UseState/index';
-
+import ClassState from './06ClassState/index';
+import UseState from './07UseState/index';
 import IndexUseEffet from './08UseEffet/IndexUseEffet';
-
+import IndexUseReducer from './09UseReducer/IndexUseReducer';
 
 const PracticeCode = () => {
 
     return (
         <div>
-            <IndexUseEffet/>
+            {/* <ClassState/> */}
+            {/* <UseState/> */}
+            {/* <IndexUseEffet/> */}
+            <IndexUseReducer/>
         </div>
     )
 

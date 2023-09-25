@@ -1,7 +1,11 @@
-import React, {Component} from 'react';
+import  {Component, createRef} from 'react';
 import './practice.css';
 
 class Practice3 extends Component {
+
+
+    inputCreate = createRef();
+    inpuTitle = createRef();
 
     constructor (props) {
         super(props);
@@ -14,14 +18,14 @@ class Practice3 extends Component {
 
     createBoard = () => {
 
-        if (this.inputCreate.value === "") return alert('작성자를 입력해주세요.');
-        if (this.inpuTitle.value === "") return alert('제못를 입력해주세요.');
+        if (this.inputCreate.current.value === "") return this.inputCreate.current.focus(), alert('작성자를 입력해주세요.');
+        if (this.inpuTitle.current.value === "") return this.inpuTitle.current.focus(), alert('제목을 입력해주세요.');
         
         const boardList = [...this.state.board];
         boardList.push({
             bno : this.state.boardIndex,
-            create : this.inputCreate.value,
-            title : this.inpuTitle.value
+            create : this.inputCreate.current.value,
+            title : this.inpuTitle.current.value
 
         });
 
@@ -33,8 +37,8 @@ class Practice3 extends Component {
                 boardIndex : preState.boardIndex + 1
             }
         }, () => {
-            this.inputCreate.value = "";
-            this.inpuTitle.value = "";
+            this.inputCreate.current.value = "";
+            this.inpuTitle.current.value = "";
             alert('등록 완료');
         })
 
@@ -47,9 +51,9 @@ class Practice3 extends Component {
             <div className='practice3_0920_box_3'>
                 <fieldset>
                     <label htmlFor='create'>작성자 : </label>
-                    <input ref={(ref) => this.inputCreate = ref} type="text" name="create" id="create" placeholder='작성자' />
+                    <input ref={this.inputCreate} type="text" name="create" id="create" placeholder='작성자' />
                     <label htmlFor='title'>제목 : </label>
-                    <input ref={(ref) => this.inpuTitle = ref} type="text" name="create" id="title" placeholder='제목' />
+                    <input ref={ this.inpuTitle} type="text" name="create" id="title" placeholder='제목' />
                     <button onClick={() => {this.createBoard()}}>작성</button>
                 </fieldset>
                 <div className='search-box'>

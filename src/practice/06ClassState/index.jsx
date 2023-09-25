@@ -1,6 +1,5 @@
 import React from "react";
 
-
 import Practice1 from './Practice1';
 import Practice2 from './Practice2';
 import Practice3 from './Practice3';
@@ -22,12 +21,12 @@ const Practice0920 = () => {
             <Practice2/>
             <br/> */}
             
-            {/* <h1>3번 문제</h1>
+            <h1>3번 문제</h1>
             <Practice3/>
-            <br/> */}
-            
+            <br/>
+{/*             
             <h1>4번 문제</h1>
-            <Practice4/> 
+            <Practice4/>  */}
 
         </div>
     )
