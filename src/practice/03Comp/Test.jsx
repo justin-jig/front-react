@@ -2,7 +2,7 @@ import { Component } from 'react';
 
 class Test extends Component {
     render() {
-        const name = 'martin';
+        const name = 'justin';
         const my_style = {
             backgroundColor: 'blue',
             color: 'orange',

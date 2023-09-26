@@ -10,25 +10,26 @@ const UseCallbackSample = () => {
     const [inputValue, setInputValue] = useState('');
     
     // useCallback 미 사용
-    // const plusCount = () => {
-    //     setCount(() => count +1)
+    const plusCount = () => {
+        console.log('test', count);
+        setCount(() => count +1)
 
-    // }
-
+    }
     // useCallback 사용
     const plusConutCallback = useCallback(()=> {
+        console.log('test', count);
         setCount(() => count +1)
-    },[count])
+    },[])
 
     const inputValueOnCange = useCallback((value)=> {
         setInputValue(value)
-    },[inputValue])
+    },[])
 
 
     return (
         <>   
             <input value={inputValue} onChange={(e) => inputValueOnCange(e.target.value)}/>   
-            <ChildComponet count={count} callbackFuc={plusConutCallback}/>
+            <ChildComponet count={count} onClick={plusCount} callbackFuc={plusConutCallback}/>
             <p>{count}</p>
         </>
     )
@@ -37,11 +38,11 @@ const UseCallbackSample = () => {
 export default UseCallbackSample
 
 
-const ChildComponet = memo(({callbackFuc}) => {
+const ChildComponet = memo(({onClick, callbackFuc}) => {
     console.log('자식 컴포넌트 호출')
     return<>
-        {/* <button onClick={() => { onClick()}}>PLUS</button> */}
-        <button onClick={() => callbackFuc()}>useCallback PLUS</button>
+        <button onClick={() => onClick() }>PLUS</button>
+        <button onClick={() => callbackFuc() }>useCallback PLUS</button>
     </>
 })
 

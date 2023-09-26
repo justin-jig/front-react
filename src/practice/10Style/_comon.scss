@@ -1,0 +1,39 @@
+
+
+/** Practice 1 */
+$circle-width : 80px;
+$circle-height : 80px;
+$circle-radius : 50%;
+
+/** Practice 2 */
+$circle-pink : pink;
+$circle-yellow : yellow;
+$circle-green : green;
+
+@mixin rotate-circle($left, $name) {
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+       
+    @keyframes #{$name} {
+        
+        25% {
+            margin-top: 0;
+            margin-left: 0;
+
+        }
+        50% {
+            margin-top: 0;
+            margin-left: $left;
+        }
+
+        75% {
+            margin-top: 50px;
+            margin-left: $left;
+        }
+
+        100% {
+            margin-top: 50px;
+            margin-left: 0;
+        }
+    }   
+ }

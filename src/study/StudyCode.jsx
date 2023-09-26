@@ -15,6 +15,11 @@ import UseMemoSample from './functional/UseMemoSample';
 import UseCallbackSample from './functional/UseCallbackSample';
 import UseReducerSample from './functional/UseReducerSample';
 
+/** functional Style */
+import CSSStyle from './style/css/Style';
+import SassComponet from './style/scss/SassComponet';
+import StyledComponent from './style/styleComponent/StyledComponent';
+
 /**css */
 import './Study_code.css';
 
@@ -32,8 +37,11 @@ const StudyCode = () => {
             {/* <LifeCycleFunc/> */}
             {/* <UseRefSample/> */}
             {/* <UseMemoSample/> */}
-            <UseCallbackSample/>
+            {/* <UseCallbackSample/> */}
             {/* <UseReducerSample/> */}
+            {/* <CSSStyle/> */}
+            {/* <SassComponet/> */}
+            <StyledComponent/>
         </div>
     )
 
