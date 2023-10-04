@@ -20,6 +20,10 @@ import CSSStyle from './style/css/Style';
 import SassComponet from './style/scss/SassComponet';
 import StyledComponent from './style/styleComponent/StyledComponent';
 
+/** react-router */
+import BrowserRouterComponent from './router/browser/BrowserRouter';
+import CreateBrowserRouterComponet from './router/createBrowser/CreateBrowserRouter';
+
 /**css */
 import './Study_code.css';
 
@@ -41,7 +45,9 @@ const StudyCode = () => {
             {/* <UseReducerSample/> */}
             {/* <CSSStyle/> */}
             {/* <SassComponet/> */}
-            <StyledComponent/>
+            {/* <StyledComponent/> */}
+            {/* <BrowserRouterComponent/> */}
+            <CreateBrowserRouterComponet/>
         </div>
     )
 

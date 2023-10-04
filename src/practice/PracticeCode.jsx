@@ -5,8 +5,8 @@ import UseState from './07UseState/index';
 import IndexUseEffet from './08UseEffet/IndexUseEffet';
 import IndexUseReducer from './09UseReducer/IndexUseReducer';
 import IndexStyle from './10Style/IndexStyle';
-import IndexStyleComponent from './10StyleComponent/IndexStyleComponent';
-
+import IndexStyleComponent from './11StyleComponent/IndexStyleComponent';
+import IndexRouterComponent from './12Router/IndexRouterComponent';
 
 const PracticeCode = () => {
 
@@ -17,8 +17,8 @@ const PracticeCode = () => {
             {/* <IndexUseEffet/> */}
             {/* <IndexUseReducer/> */}
             {/* <IndexStyle/> */}
-            <IndexStyleComponent/>
-            
+            {/* <IndexStyleComponent/> */}
+            <IndexRouterComponent/>
         </div>
     )
 
