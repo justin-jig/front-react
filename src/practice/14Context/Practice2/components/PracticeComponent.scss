@@ -33,8 +33,13 @@
 .cart-wrap {
     position: relative;
     width: 25vw; height: 50px; right: 0;
+    
     h5 { 
         cursor: pointer;  font-size: 20px;
+    }
+
+    .pice {
+        text-align: center; font-size: 18px;
     }
     .cart-list {
         position: absolute;   right: -40px;
