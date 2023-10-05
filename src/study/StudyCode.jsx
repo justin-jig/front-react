@@ -24,6 +24,14 @@ import StyledComponent from './style/styleComponent/StyledComponent';
 import BrowserRouterComponent from './router/browser/BrowserRouter';
 import CreateBrowserRouterComponet from './router/createBrowser/CreateBrowserRouter';
 
+/** third party */
+import ReactHookForm from './library/hooks/ReactHookForm';
+
+/** store */
+import ContextCom from './store/context/ContextCom'
+
+
+
 /**css */
 import './Study_code.css';
 
@@ -47,7 +55,9 @@ const StudyCode = () => {
             {/* <SassComponet/> */}
             {/* <StyledComponent/> */}
             {/* <BrowserRouterComponent/> */}
-            <CreateBrowserRouterComponet/>
+            {/* <CreateBrowserRouterComponet/> */}
+            {/* <ReactHookForm/> */}
+            <ContextCom/>
         </div>
     )
 
