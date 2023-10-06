@@ -10,7 +10,6 @@ const MyContext = createContext({
 
 export function LanguageProvider (props) {
 
-    console.log('props', props)
     const [language, setLanguage] = useState('en');
 
     return (

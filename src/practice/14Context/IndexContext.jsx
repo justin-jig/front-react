@@ -1,7 +1,7 @@
 import React from "react";
 
 /**
- * third party React-hook-form 관련 과제 
+ * React api contxt api 관련 과제 
  */
 
 import Practice1 from './Practice1/Practice1';

@@ -9,6 +9,8 @@ import IndexStyleComponent from './11StyleComponent/IndexStyleComponent';
 import IndexRouterComponent from './12Router/IndexRouterComponent';
 import IndexReactHookForm from './13ReactHookForm/IndexReactHookForm';
 import IndexContext from './14Context/IndexContext';
+import IndexRedux from './15Redux/IndexRedux';
+
 
 const PracticeCode = () => {
 
@@ -22,8 +24,7 @@ const PracticeCode = () => {
             {/* <IndexStyleComponent/> */}
             {/* <IndexRouterComponent/> */}
             {/* <IndexReactHookForm/> */}
-            <IndexContext/>
-            
+            <IndexRedux/>
         </div>
     )
 

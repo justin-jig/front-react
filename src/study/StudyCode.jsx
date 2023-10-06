@@ -27,9 +27,9 @@ import CreateBrowserRouterComponet from './router/createBrowser/CreateBrowserRou
 /** third party */
 import ReactHookForm from './library/hooks/ReactHookForm';
 
-/** store */
+/** store state */
 import ContextCom from './store/context/ContextCom'
-
+import ReduxCom from './store/redux/ReduxCom';
 
 
 /**css */
@@ -57,7 +57,8 @@ const StudyCode = () => {
             {/* <BrowserRouterComponent/> */}
             {/* <CreateBrowserRouterComponet/> */}
             {/* <ReactHookForm/> */}
-            <ContextCom/>
+            {/* <ContextCom/> */}
+            <ReduxCom/>
         </div>
     )
 
