@@ -20,9 +20,9 @@
 ##### 📂 폴더 구조
 | 구분 | 설명 |
 |------|------|
-| **babel** | babel 구성 소스 |
-| **webpack** | webpack 구성 소스 |
-
+| **react개념** | react 개념 소스 |
+| **react18** | react18버전 업데이트 정리 |
+| **react_redux** | react redux 예제 소스 |
 
 ##### 🧾 버전 관리 및 기록
 > 버전별 기록.
@@ -33,18 +33,8 @@
 
 
 
-
-
 ## 🧑‍💻 Author
 **정인근 (Ingeun Jeong)**  
 📧 [justin-j@naver.com](mailto:justin-j@naver.com)  
 🧾 [note](https://justin-jig.github.io/justin-book)
 🏠 [git Profile](https://github.com/justin-jig)
-
----
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Markdown-Study-blue?logo=markdown" />
-  <img src="https://img.shields.io/badge/License-MIT-green" />
-  <img src="https://img.shields.io/badge/Version-1.0.0-lightgrey" />
-</p>

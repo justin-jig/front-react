@@ -5,7 +5,7 @@
   <span>노트 정리 : <a href="https://justin-jig.github.io/justin-book/front/react/">https://justin-jig.github.io/justin-book/front/react/</a></span><br/>
 </p>
 
-## React 18 주요 변경사항 정리 
+## React 주요 변경사항 정리 
 
 ####  요약 표
 
