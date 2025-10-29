@@ -2,7 +2,7 @@
 
 <h1 align="center">📘 Front/react Repository</h1>
 <p align="center">
-  <span>노트 정리 : <a href="https://justin-jig.github.io/justin-book/front/react/">https://justin-jig.github.io/justin-book/front/react/"</a></span><br/>
+  <span>노트 정리 : <a href="https://justin-jig.github.io/justin-book/front/react">https://justin-jig.github.io/justin-book/front/react"</a></span><br/>
 </p>
 
 ### Reference
