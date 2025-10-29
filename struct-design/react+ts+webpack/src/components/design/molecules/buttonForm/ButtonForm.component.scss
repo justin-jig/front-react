@@ -1,0 +1,14 @@
+
+
+.button-input-box{
+                display: flex; border: 1px solid #ECECEC; height: 42px;
+                .left-area{
+                        width: 75%;
+                        input{ border: 0;}
+                }
+                .right-area{
+                        width: 25%; height: 100%;
+                        
+                }
+
+}

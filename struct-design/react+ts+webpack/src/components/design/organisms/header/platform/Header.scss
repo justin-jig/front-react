@@ -1,0 +1,11 @@
+/* header */
+.platform-header-box{
+    background: #24292E; height: 100px; line-height: 100px; text-align: center; padding: 0 24px; top: 0; color: #fff; 
+    z-index: 10; 
+    box-sizing: border-box; position: relative;
+    a{ display: inline-block; margin-left: 10px; color: #fff;}
+    a:hover{ border-bottom: 2px solid #ffff;}
+    span {display: inline-block; margin-left: 4px;  float: right; margin-right: 5px; cursor: pointer;} 
+
+}//platform-header-box
+

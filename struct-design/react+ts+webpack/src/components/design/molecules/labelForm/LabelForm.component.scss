@@ -1,0 +1,118 @@
+
+
+
+
+.input-label-box{
+        width: 100%;
+        label{display: inline-block; font-weight: bold; font-size: 16px;   line-height: 16px; letter-spacing: -0.02em;   
+                color: #24292E; margin-bottom: 8px;}
+        textarea{
+                                min-height: 200px; width: 100%;
+        } 
+        .disabled{
+                background-color: #E5E5E5;
+          
+          }       
+              
+}//input-label-box
+
+.button-input-tag-label-box{
+                width: 100%;
+                label{display: inline-block; font-weight: bold; font-size: 16px;   line-height: 16px; letter-spacing: -0.02em;   
+                        color: #24292E; margin-bottom: 8px;}
+
+                .tag-area{
+                        width: 100%; overflow: hidden; margin-top: 8px;
+                        
+                }
+}//button-input-tag-label-box
+
+.select-input-tag-label-box{
+        width: 100%;
+
+        .label-span{
+                margin-bottom: 8px;
+                label{display: inline-block; vertical-align: middle; margin-right: 8px;
+                        font-weight: bold; font-size: 16px;   line-height: 16px; letter-spacing: -0.02em;   
+                        color: #24292E; }
+                span{display: inline-block; vertical-align: bottom; font-size: 10px; line-height: 14px;  font-weight: 300; 
+                                letter-spacing: -0.02em; color: #24292E;
+                }
+        }
+        .tag-area{
+                  overflow: hidden; margin-top: 8px; display: inline-block;
+                
+        }
+}//select-input-tag-label-box
+
+.select-input-tag-label-box_left{
+
+        width: 100%;
+
+        .label-span{
+                margin-bottom: 8px;
+                label{display: inline-block; vertical-align: middle; margin-right: 8px;
+                        font-weight: bold; font-size: 16px;   line-height: 16px; letter-spacing: -0.02em;   
+                        color: #24292E; }
+                span{display: inline-block; vertical-align: bottom; font-size: 10px; line-height: 14px;  font-weight: 300; 
+                                letter-spacing: -0.02em; color: #24292E;
+                }
+        }
+        .select-section{
+                       display: inline-block; vertical-align: middle;  width: 60%; margin-right: 4%;
+
+        }
+        .tag-area{
+                        display: inline-block; vertical-align: middle; width: 36%; overflow: hidden; margin-top: 8px;
+                
+        }
+
+
+
+}//select-input-tag-label-box_left
+
+.select-input-button-tag-label{
+
+                .label-span{
+                        margin-bottom: 8px;
+                        label{display: inline-block; vertical-align: middle; margin-right: 8px;
+                                font-weight: bold; font-size: 16px;   line-height: 16px; letter-spacing: -0.02em;   
+                                color: #24292E; }
+                        span{display: inline-block; vertical-align: bottom; font-size: 10px; line-height: 14px;  font-weight: 300; 
+                                        letter-spacing: -0.02em; color: #24292E;
+                        }
+                }//label-span
+                .select-button-section{
+                                .select-section-1{
+                                                        width: 39%; display: inline-block; vertical-align: middle;
+                                                        margin-right: 2%;
+                                                        .processed-select-box{ margin-top: 0;}
+                                }//select-section-1
+                                .button-section-2{
+                                                        width: 59%; display: inline-block; vertical-align: middle;
+                                }//button-section-2
+
+
+                }//select-button-section
+
+                .tag-area{
+                        overflow: hidden; margin-top: 8px; display: inline-block;
+                }
+
+}//select-input-button-tag-label
+
+.disable-date-box{
+
+                        width: 100%;
+                        label{display:block; font-weight: bold; font-size: 16px;   line-height: 16px; letter-spacing: -0.02em;   
+                                color: #24292E; margin-bottom: 8px;}
+
+                        .date-input{ width: 60%; display: inline-block; vertical-align: middle; margin-right: 3%;
+                
+                        }
+                        .disable-check{ width: 37%; display: inline-block; vertical-align: middle;
+                                        .check{ display: inline-block; vertical-align: middle; margin-right: 10px; input{padding: 0; width: 12px; height: 12px;}}
+                                        .contents{ display: inline-block; vertical-align: bottom; font-size: 14px;}
+                        }
+
+}//disable-date-box
