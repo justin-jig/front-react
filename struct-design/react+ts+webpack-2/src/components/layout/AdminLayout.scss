@@ -1,0 +1,71 @@
+
+
+/** NotoSans */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+/** Robots */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+$fontColor:#fff;
+
+.Admin_wrap {
+    width: 100%; height: 100%;
+    font-family: "Roboto Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+    display: flex;
+
+    .Admin_navigation {
+        width: 280px; position: fixed; left: 0; z-index: 100;
+        overflow-y: auto; 
+        .logo_box {
+            z-index: 1; overflow: hidden; 
+            position: relative; 
+            display: flex; align-items: center;  justify-content: center; 
+            padding: 15px 30px;  height: 80px;
+            /* background: #fff; */
+            border-right: 1px solid #e5e7eb;
+            border-bottom: 1px solid #e5e7eb;
+            a {
+               font-size: 1rem; text-align: center;
+               font-weight: bold; 
+            }
+        }
+    }
+    .Admin_Header{
+        z-index: 1025; position: fixed; left: 280px; right: 0;
+        height: 80px;
+    }
+
+    .Admin_main {
+        margin-left: 280px;
+        position: relative; top: 80px;
+        width: calc(100vw - 280px); min-height: calc(100vh - 80px);
+    
+    }
+} 
+
+
+@media (max-width : 768px) {
+
+    .Admin_wrap {
+        .Admin_navigation {
+            width: 100%; position: fixed; left: 0; top: 80px;
+            .logo_box {
+                display: none;
+            }
+        }
+        .Admin_Header {
+            left: 0; top: 0; width: 100%;
+        }
+        .Admin_main {
+            margin-left: 0;
+            position: relative; top: 80px;
+            width: 100%; min-height: calc(100vh - 80px);
+            transition: all .3s ease;
+        }
+
+    }
+}
+

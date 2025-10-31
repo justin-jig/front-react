@@ -1,0 +1,97 @@
+
+.Navbar_box {
+    padding: 10px 0;
+    position: relative; border-right: 1px solid #e5e7eb;
+    height: calc(100vh - 80px); 
+    transition: all .3s ease;
+    .Navbar_logobox {
+        padding: 15px 30px;  height: 60px; display: none;
+        font-weight: bold;  text-align: center;
+        position: relative; 
+        a {
+            font-size: 1.8em;
+        }
+        .close_box {
+            position: absolute; right: 15px; top: 8px; cursor: pointer;
+            /* 부드럽게 움직이는 효과 */ width: 25px; height: 25px;
+	        transition: 0.2s; font-size: 18px;
+            &:hover {
+                transform: rotate(720deg);
+            }
+            svg {
+                color: #283c50;
+            }
+        }
+    }
+    .Navbar_title {
+        color: #7587a7; font-size: 10px;
+        font-weight: 700; letter-spacing: .07em;
+        padding: 15px 20px 10px;
+        text-transform: uppercase;
+    }
+
+    .Navbar_ul {
+        list-style: none;  padding-left: 0; margin-bottom: 0;
+        .list_item {
+            display: block; line-height: 1.2; cursor: pointer;
+            font-size: 13px;
+            color: #283c50; font-weight: 600;
+            .item_title-link{
+                position: relative; padding: 10px 15px;
+               
+                .title_icon {
+                    margin-right: 12px;
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+                .title_name {
+
+                }
+                .title_arrow {
+                    float: right;
+                    transition: all .2s ease-in-out
+                }
+
+                &:hover {
+                    background-color: #eaebef;
+                    font-weight: bold; border-radius: 2px;
+                }
+            }
+            .item_submenu {
+                li {
+                    margin: 3px 10px; border-radius: 5px; font-size: 1.6em;
+                    a {
+                        font-size: .8rem; padding: 10px 20px; 
+                        width: 100%; height: 100%; display: block;
+                    }
+                    &:hover {
+                        background-color: #eaebef;
+                        font-weight: bold; border-radius: 2px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width : 768px) {
+    .Navbar_box {
+        display: block !important;
+    }
+}
+
+@media (max-width : 768px) {
+    .Navbar_box {
+        z-index: 180;
+        background: #ffff;
+        .Navbar_logobox {
+            display: block;
+        }
+        &.display {
+            display: block;
+        }
+        &.none {
+            display: none;
+        }
+    }
+}
